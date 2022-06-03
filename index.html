@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Py REPL</title>
+  <link rel="icon" type="image/x-icon"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png?20100317150552">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;1,300;1,500&family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  <style>
+    * {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .heading {
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+      background-color: rgb(89, 89, 237);
+      color: gold;
+      padding: 5px;
+      text-shadow: 3px 3px 3px rgb(38, 37, 37);
+    }
+
+    .instruction {
+      margin-left: 20px;
+      padding: 10px;
+      font-weight: 500;
+    }
+
+    .cm-activeLine cm-line {
+      background: black !important;
+      color: red
+    }
+
+    .my-repl-1-1 {
+      background-color: aqua !important;
+    }
+
+    body {
+      background-color: aliceblue;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="heading">Online Python REPL</h1>
+  <div class="instruction">
+    Tip: press Shift-ENTER to evaluate a cell
+  </div>
+  <py-repl id="my-repl" auto-generated="true">
+  </py-repl>
+</body>
+
+</html>
