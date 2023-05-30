@@ -2,7 +2,7 @@
 
 ## What is PyScript?
 
-- According to Anaconda's blog, PyScript is a framework that allows users to create rich Python applications in the browser using a mix of Python with standard HTML. PyScript aims to give users a first-class programming language that has consistent styling rules, is more expressive, and is easier to learn.
+- <p align="justify">According to Anaconda's blog, PyScript is a framework that allows users to create rich Python applications in the browser using a mix of Python with standard HTML. PyScript aims to give users a first-class programming language that has consistent styling rules, is more expressive, and is easier to learn. </p>
 
 ## How to use PyScript?
 - Just use the < py-script > tag and write Python code inside the tag itself.
